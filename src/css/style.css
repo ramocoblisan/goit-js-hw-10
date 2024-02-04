@@ -1,0 +1,47 @@
+:root {
+  --default-font: 'Arial', sans-serif;
+}
+
+.breed-select {
+  width: 200px; 
+  font-size: 18px; 
+}
+
+.cat-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: var(--default-font); 
+  font-size: 16px; 
+  width: 80%;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.cat-info .cat-container {
+  display: flex;
+  align-items: center;
+}
+
+.cat-image {
+  max-width: 700px; 
+  height: auto;
+  margin-right: 30px; 
+}
+
+.cat-text {
+  text-align: left;
+  font-family: var(--default-font); 
+  font-size: 25px; 
+}
+
+.cat-text .breed-name,
+.cat-text span {
+  font-weight: bold; 
+  font-size: 30px;
+}
+
+.error, 
+.loader {
+  display: none;
+}
