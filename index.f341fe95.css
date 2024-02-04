@@ -1,0 +1,2 @@
+:root{--default-font:"Arial",sans-serif}.breed-select{width:200px;font-size:18px}.cat-info{font-family:var(--default-font);width:80%;justify-content:space-around;align-items:center;margin-top:20px;margin-left:20px;font-size:16px;display:flex}.cat-info .cat-container{align-items:center;display:flex}.cat-image{max-width:700px;height:auto;margin-right:30px}.cat-text{text-align:left;font-family:var(--default-font);font-size:25px}.cat-text .breed-name,.cat-text span{font-size:30px;font-weight:700}.error,.loader{display:none}
+/*# sourceMappingURL=index.f341fe95.css.map */
